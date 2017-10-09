@@ -1,0 +1,5 @@
+Module: graphite
+Version: 0.0
+Description: Icinga graphite module
+Depends: monitoring
+Depends: libiplxhttp
