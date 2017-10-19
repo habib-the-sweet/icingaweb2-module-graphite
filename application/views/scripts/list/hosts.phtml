@@ -41,9 +41,7 @@ if ($filterEditor->getFilter()->isEmpty()) {
             $host->host_name,
             $host->host_check_command,
             $host->_host_check_command
-        ))
-            ->setCompact()
-            ->handleRequest();
+        ))->handleRequest();
     }
 
     if (! $compact && $hosts->hasMore()) {

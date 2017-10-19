@@ -54,9 +54,7 @@ if ($filterEditor->getFilter()->isEmpty()) {
             $service->service_description,
             $service->service_check_command,
             $service->_service_check_command
-        ))
-            ->setCompact()
-            ->handleRequest();
+        ))->handleRequest();
     }
 
     if (! $compact && $services->hasMore()) {
